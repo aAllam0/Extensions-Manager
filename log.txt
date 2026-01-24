@@ -1,4 +1,0 @@
-# Make active function on active buttons using js
-# Continue making switch button 
-# you have to solve the remove problem when filtering
-# Done
