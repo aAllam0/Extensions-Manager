@@ -99,13 +99,13 @@ function filterCards(filterCondition) {
       card.style.display = isActive ? "" : "none";
     } else if (filterCondition === "inactive") {
       card.style.display = !isActive ? "" : "none";
-    } else if (filterCondition === "all") {
       card.style.display = "";
+    } else if (filterCondition === "all") {
     }
   });
 }
 
-fetch("../data.json")
+fetch("./data.json")
   .then((response) => response.json())
   .then((data) => {
     extensionsData = data;
